@@ -1,0 +1,33 @@
+.container {
+  border: 1px solid black;
+  overflow: hidden;
+}
+.list {
+  position: relative;
+  border-bottom: 1px solid black;
+}
+.list:last-child {
+  border-bottom: none;
+}
+.inner {
+  padding: 12px;
+  transition: all 0.7s;
+}
+.action {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.7s;
+}
+.wrapper-button {
+  display: inline-flex;
+  gap: 0;
+  margin: 0;
+  height: 100%;
+}
+.wrapper-button button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px;
+}
